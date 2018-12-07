@@ -1,0 +1,217 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+  	font-family: 'Roboto-Regular';
+  	letter-spacing: 1px;
+  	color: #fff;
+}
+
+body {
+	background-color: #00001a;
+}
+
+/* header-place */
+/* header-place */
+
+header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 85px;
+	box-shadow: 0px 2px 4px #fff;
+	background-color: #808080;
+	z-index: 999;
+}
+
+.header-center {
+	display: flex;
+	width: 1200px;
+	height: 100%;
+	margin: 0px auto;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 200px;
+	height: 100%;
+}
+
+.logo-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.search {
+	width: 300px;
+	height: 100%;
+	line-height: 85px;
+}
+
+.search-input {
+	width: 200px;
+	height: 30px;
+	padding: 0px 10px;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	color: #000;
+}
+
+.search-link {
+	text-decoration: none;
+	padding: 6px 12px;
+	font-size: 14px;
+	border-radius: 10px;
+	background-color: #000;
+}
+
+/* header-place */
+/* header-place */
+
+
+/* content-place */
+/* content-place */
+
+.content {
+	width: 1200px;
+	height: auto;
+	margin: 150px auto 50px;
+	overflow: hidden;
+}
+
+.movies {
+	text-align: center;
+	margin-bottom: 45px;
+	font-size: 30px;
+}
+
+/* Genres */
+
+.genres-title {
+	display: inline-block;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.all-genres {
+	width: 100%;
+	height: auto;
+	margin: 45px 0px;
+	overflow: hidden;
+}
+
+.genre {
+	width: 183px;
+	height: 83px;
+	float: left;
+	margin: 0px 20px 30px 0px;
+	text-align: center;
+	line-height: 83px;
+	border: 3px solid #5c5cd6;
+	transition: all 0.5s ease;
+}
+
+.genre:nth-child(6n) {
+	margin: 0px 0px 30px 0px;
+}
+
+.genre:hover {
+	border-color: #fff;
+	transition: all 0.5s ease;
+}
+
+.genre-link {
+	display: block;
+	text-decoration: none;
+	font-size: 16px;
+	transition: all 0.5s ease;
+}
+
+.genre-link:hover {
+	color: #5c5cd6;
+	transition: all 0.5s ease;
+}
+
+/* Genres */
+
+/* Trailers */
+
+
+.all-trailers {
+	width: 100%;
+	height: auto;
+	margin: 45px 0px;
+	overflow: hidden;
+}
+
+.trailer {
+	position: relative;
+	width: 183px;
+	height: 260px;
+	float: left;
+	margin: 0px 20px 30px 0px;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.trailer-abs {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.5s ease;
+}
+
+
+.trailer:hover .trailer-abs {
+	background-color: #000;
+	opacity: .5;
+	transition: all 0.5s ease;
+}
+
+
+.trailer:nth-child(6n) {
+	margin: 0px 0px 30px 0px;
+}
+
+.trailer-img {
+	width: 100%;
+	height: 100%;
+	object-position: center;
+	object-fit: cover;
+}
+
+
+.video-link {
+	position: relative;
+	display: block;
+	z-index: 3;
+}
+
+.far {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 0px;
+	color: #fff;
+	z-index: 5;
+}
+
+.video-link:hover .far {
+	top: 105px;
+	left: 70px;
+	font-size: 50px;
+}
+
+
+/* Trailers */
+
+
+/* content-place */
+/* content-place */
